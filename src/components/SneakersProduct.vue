@@ -778,6 +778,13 @@ export default {
     .modal {
         display: none;
     }
+
+    .prices {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
 }
 
 .attribution {
@@ -785,7 +792,7 @@ export default {
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
-    padding: 15px 0;
+    padding: 5px 0;
     font-size: 11px;
     text-align: center;
 }
